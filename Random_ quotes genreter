@@ -1,0 +1,17 @@
+import random
+
+quotes = [
+    "Believe in yourself!",
+    "Never give up.",
+    "Stay positive, work hard, make it happen.",
+    "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "Your limitation—it’s only your imagination."
+]
+
+def get_random_quote():
+    return random.choice(quotes)
+
+if __name__ == "__main__":
+    print("✨ Welcome to Random Quote Generator ✨\n")
+    print("Here’s your motivational quote for today:\n")
+    print(get_random_quote())
